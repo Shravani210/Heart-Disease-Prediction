@@ -74,27 +74,29 @@ After running, it will:
 
 ## 🖥️ Output
 
-PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python train_model.py 
+###  PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python train_model.py 
 
-✅ Model Trained Successfully!
-📊 Accuracy: 79.51%
+ ✅ Model Trained Successfully!
+ 
+ 📊 Accuracy: 79.51%
 
-💾 model_joblib.pkl and scaler_joblib.pkl saved successfully!
 
-PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python predict.py
-C:\Users\Shravani\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
-  warnings.warn()
+###  PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python predict.py
 
-🔍 Prediction Result:
+🔍 Prediction Result: 
+
 💔 High Risk of Heart Disease
 
-PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python heart_disease_model.py
-   age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  target
-0   52    1   0       125   212    0        1      168      0      1.0      2   2     3       0
-1   53    1   0       140   203    1        0      155      1      3.1      0   0     3       0
-2   70    1   0       145   174    0        1      125      1      2.6      0   0     3       0
-3   61    1   0       148   203    0        1      161      0      0.0      2   1     3       0
-4   62    0   0       138   294    1        1      106      0      1.9      1   3     2       0
+###  PS C:\Users\Shravani\OneDrive\Desktop\PROJECTS\Heart Disease Prediction> python heart_disease_model.py
+
+| age | sex | cp | trestbps | chol | fbs | restecg | thalach | exang | oldpeak | slope | ca | thal | target |
+|----:|----:|---:|---------:|-----:|----:|--------:|--------:|------:|--------:|------:|---:|-----:|-------:|
+| 52 | 1 | 0 | 125 | 212 | 0 | 1 | 168 | 0 | 1.0 | 2 | 2 | 3 | 0 |
+| 53 | 1 | 0 | 140 | 203 | 1 | 0 | 155 | 1 | 3.1 | 0 | 0 | 3 | 0 |
+| 70 | 1 | 0 | 145 | 174 | 0 | 1 | 125 | 1 | 2.6 | 0 | 0 | 3 | 0 |
+| 61 | 1 | 0 | 148 | 203 | 0 | 1 | 161 | 0 | 0.0 | 2 | 1 | 3 | 0 |
+| 62 | 0 | 0 | 138 | 294 | 1 | 1 | 106 | 0 | 1.9 | 1 | 3 | 2 | 0 |
+
 
 
 ## 🎯 Project Result
